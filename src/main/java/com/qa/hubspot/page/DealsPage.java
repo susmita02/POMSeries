@@ -14,10 +14,10 @@ public class DealsPage extends BasePage {
 	
 	private By header = By.xpath("//span[text()='Deals']");
 	private By createDealPrimary = By.xpath("//span[text()='Create deal']");
-	private By dealName = By.id("UIFormControl-19");
-	private By dealAmount = By.id("UIFormControl-27");
+	private By dealName = By.id("UIFormControl-21");
+	private By dealAmount = By.id("UIFormControl-29");
 	private By createDealSecondary= By.xpath("//*[text()='Create']");
-	private By dealBackClick= By.xpath("(//*[text()='Deals'])[position()=2]");
+	private By dealBackClick= By.xpath("//div[@class='display-flex']//*[text()='Deals']");
 	
 	
 	public DealsPage(WebDriver driver) {

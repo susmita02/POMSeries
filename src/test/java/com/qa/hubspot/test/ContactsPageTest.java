@@ -51,8 +51,8 @@ public class ContactsPageTest extends BaseTest{
 	}
 
 	@Test(dataProvider="getContactTestData")
-	public void createContacts(String email, String firstName, String lastName, String jobTitle) {
-		contactsPage.createContact(email, firstName, lastName, jobTitle);
+	public void createContacts(String email, String firstName, String lastName) {
+		contactsPage.createContact(email, firstName, lastName);
 		System.out.println("Contact created");
 }
 //	@Test(priority=3)

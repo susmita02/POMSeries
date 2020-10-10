@@ -49,7 +49,7 @@ public class DealsPageTest extends BaseTest{
 	@Test(dataProvider="getDealTestData")
 	public void createDeals(String dealName, String dealAmount) {
 		dealsPage.createDeal(dealName, dealAmount);
-		System.out.println("Deals");
+		System.out.println("Deals Created");
 	}
 //	@Test(priority =3)
 //	public void createDeals(){

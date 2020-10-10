@@ -5,12 +5,10 @@
     <classes>
       <class name="com.qa.hubspot.test.ContactsPageTest">
         <methods>
-          <include name="verifyContactsPageHeader"/>
-          <include name="verifyContactsPageTitle"/>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="homePagesetUp"/>
-          <include name="createContacts"/>
+          <include name="createContacts" invocation-numbers="0 1 2 3"/>
         </methods>
       </class> <!-- com.qa.hubspot.test.ContactsPageTest -->
     </classes>
