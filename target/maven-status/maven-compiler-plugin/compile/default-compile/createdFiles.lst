@@ -12,5 +12,6 @@ com\qa\hubspot\page\ContactsPage.class
 com\qa\hubspot\listeners\ExtentReportListener.class
 com\qa\hubspot\page\LoginPage.class
 com\qa\hubspot\page\DealsPage.class
+com\qa\hubspot\page\AdvProfilePage.class
 com\qa\hubspot\utils\ElementUtil.class
 com\qa\hubspot\base\BasePage.class
