@@ -4,6 +4,7 @@ public class AdvProfilePage {
 	
 	public AdvProfilePage(){
 		System.out.println("AdvProfilePage");
+		System.out.println("AdvProfilePage1");
 	}
 
 }
